@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Título da Página</title>
+    <meta charset="utf-8">
+</head>
+<script>
+    let nota1 = parseFloat(prompt('Digite sua primeira nota'))
+    let nota2 = parseFloat(prompt('Digite sua segunda nota'))
+    let media = (nota1 + nota2) / 2
+    console.log(media)
+    
+    if(media >= 6){
+        alert('Aprovado, não fez mais que a obrigação.')
+        
+    }else{
+        alert('Reprovado! SEU BURROOOOOOOOO, vai pro exame final HAHAHAHAHAHAHAHAHA')
+        let final = parseFloat(prompt('digite sua nota final'))
+        let novamedia = (media + final) / 2
+        console.log(novamedia)
+        if (novamedia >= 6){
+            alert('Aprovado')
+        } else{
+            alert('Reprovado')
+        }
+    }
+</script>
+<body>
+    
+</body>
+</html>
